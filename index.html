@@ -8,6 +8,7 @@
     body {
       font-family: Arial, sans-serif;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -17,10 +18,32 @@
     h1 {
       font-size: 2.5em;
       color: #333;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #0066cc;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to my archive. <br> Young-Chul Kim</h1>
+  <h1>Welcome to my archive.<br>Young-Chul Kim</h1>
+  <ul>
+    <li><a href="parents.html">For My Parents and Sisters</a></li>
+    <li><a href="family.html">For My Family</a></li>
+    <li><a href="colleagues.html">For My Colleagues</a></li>
+  </ul>
 </body>
 </html>
